@@ -5,10 +5,21 @@
   "main": "webpack.config.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "beta": "BETA=1 webpack -p --content-base ./build",
     "deploy": "NODE_ENV=production webpack -p && npm shrinkwrap && npm version -m 'Deploying %s'"
   },
-  "author": "Alessandro Casazza",
+  "author": "Alessandro Casazza <imasterale@gmail.com>",
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/iMasterAle/react-starter-project.git"
+  },
+  "bugs": {
+      "url": "https://github.com/iMasterAle/react-starter-project/issues"
+  },
+  "keywords": [
+    "react",
+    "flux",
+    "react-router"
+  ],
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^5.6.15",
