@@ -1,0 +1,31 @@
+{
+  "name": "react-starter-project",
+  "description": "Simple Project with React, Flux and React Router",
+  "version": "0.0.0",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "beta": "BETA=1 webpack -p --content-base ./build",
+    "deploy": "NODE_ENV=production webpack -p && npm shrinkwrap && npm version -m 'Deploying %s'"
+  },
+  "author": "Alessandro Casazza",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^5.6.15",
+    "babel-eslint": "^3.1.19",
+    "babel-loader": "^5.2.2",
+    "eslint": "^0.24.0",
+    "eslint-loader": "^0.14.1",
+    "eslint-plugin-react": "^2.6.2",
+    "file-loader": "^0.8.4",
+    "node-libs-browser": "^0.5.2",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.10.0",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "flux": "^2.0.3",
+    "react": "^0.13.3",
+    "react-router": "^0.13.3"
+  }
+}
