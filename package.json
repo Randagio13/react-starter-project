@@ -9,11 +9,11 @@
   },
   "author": "Alessandro Casazza <imasterale@gmail.com>",
   "repository": {
-      "type": "git",
-      "url": "git://github.com/iMasterAle/react-starter-project.git"
+    "type": "git",
+    "url": "git://github.com/iMasterAle/react-starter-project.git"
   },
   "bugs": {
-      "url": "https://github.com/iMasterAle/react-starter-project/issues"
+    "url": "https://github.com/iMasterAle/react-starter-project/issues"
   },
   "keywords": [
     "react",
@@ -23,11 +23,11 @@
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^5.6.15",
-    "babel-eslint": "^3.1.19",
+    "babel-eslint": "^3.1.20",
     "babel-loader": "^5.2.2",
     "eslint": "^0.24.0",
     "eslint-loader": "^0.14.1",
-    "eslint-plugin-react": "^2.6.2",
+    "eslint-plugin-react": "^2.6.3",
     "file-loader": "^0.8.4",
     "node-libs-browser": "^0.5.2",
     "url-loader": "^0.5.6",
